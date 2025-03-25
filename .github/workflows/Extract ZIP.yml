@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Unzip Files
-        run: unzip -o file-anda.zip -d ./
+        run: unzip -o v2ray vercel.zip -d ./
 
       - name: Commit Extracted Files
         run: |
